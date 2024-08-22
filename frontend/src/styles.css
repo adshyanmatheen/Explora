@@ -1,0 +1,153 @@
+/* Body style for centering content */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f2f5;
+}
+
+/* Container for the form */
+.container {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Styles for the form sections */
+.bg-white {
+  background-color: white;
+}
+
+.rounded-lg {
+  border-radius: 8px;
+}
+
+.shadow-md {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+/* Heading styles */
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+/* Grid styles */
+.grid {
+  display: grid;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+/* Input and Textarea styles */
+.shadow-sm {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
+.focus\:outline-none:focus {
+  outline: none;
+}
+
+.focus\:ring-indigo-500:focus {
+  box-shadow: 0 0 0 2px #667eea;
+}
+
+.focus\:border-indigo-500:focus {
+  border-color: #667eea;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-24 {
+  height: 6rem;
+}
+
+/* Button styles */
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button.primary {
+  background-color: #667eea;
+  color: white;
+}
+
+.button.primary:hover {
+  background-color: #5a67d8;
+}
+
+.button.danger {
+  background-color: #f87171;
+  color: white;
+}
+
+.button.danger:hover {
+  background-color: #ef4444;
+}
+
+/* Drag and Drop styles */
+.ant-upload-drag-icon,
+.ant-upload-text,
+.ant-upload-hint {
+  color: #999;
+}
+
+/* Custom classes */
+.bg-getstarted-customBlue {
+  background-color: #0077b6; /* Replace with your desired color */
+}
+
+/* Custom hover effect */
+.hover:text-black:hover {
+  color: black;
+}
+
+.hover:bg-white:hover {
+  background-color: white;
+}

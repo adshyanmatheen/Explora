@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading-animate {
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.subheading-animate {
+  animation: fadeIn 4s;
+}
+
+@keyframes fillAndStrokePink {
+  from {
+    fill: currentColor;
+    stroke: currentColor;
+  }
+  to {
+    fill: #fb7185;
+    stroke: #fb7185;
+  }
+}
+
+.animate-fill-and-stroke-pink {
+  animation: fillAndStrokePink 0.2s ease-in-out forwards;
+}
